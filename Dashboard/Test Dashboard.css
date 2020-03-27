@@ -1,0 +1,123 @@
+body {
+  text-align : left;
+  background-color : #45818E;
+  color : white;
+  margin-bottom:20px;
+  margin-left:10%;
+  margin-bottom:10%;
+  width : 80%;
+}
+
+a {
+  color : white;
+  background : #45818E;
+  font-size : 18px;
+  font-family: roboto;
+}
+
+#titre {
+  text-align : center;
+  color : white;
+  font-weight : 900;
+  font-size : 50px;
+  text-decoration :underline;
+  text-transform :uppercase;
+  font-family: roboto;
+}
+
+#titre:hover {
+  color : #FC9900;
+}
+
+#tableau {
+  width : 90%;
+  font-weight : 700;
+}
+
+#row {
+  padding : 50px 50px 50px 50px;
+  cursor:pointer;
+}
+
+#seainput {
+  text-transform : uppercase;
+  border : solid 4px #134F5C;
+  background : #45818E;
+  font-size : 18px;
+  text-align : center;
+  color : white;
+  text-decoration :underline;
+  text-transform :uppercase;
+  font-family: roboto;
+  width : 15%;
+  height : 70px;
+  padding : 30px 10px 30px 10px;
+  margin: 20px 20px 20px 20px;
+}
+
+#seainput:hover {
+  background-color : #134F5C;
+  border-color : #a2c4c9ff;
+}
+
+.cellule{
+  cursor:pointer;
+}
+
+#seainputAMS {
+  text-transform : uppercase;
+  border : solid 4px #B45F07;
+  font-size : 18px;
+  background : #FC9900;
+  text-align : center;
+  color : white;
+  text-decoration :underline;
+  text-transform :uppercase;
+  font-family: roboto;
+  width : 15%;
+  height : 70px;
+  padding : 30px 10px 30px 10px;
+  margin: 20px 20px 20px 20px;
+
+}
+
+#seainputAMS:hover {
+  background-color : #B45F07;
+  border-color : #FC9900;
+}
+
+.todo {
+  border : solid 10px #134F5C;
+  text-align:center;
+  padding:0px;
+  margin: auto 10% auto 10%;
+  width:90%;
+}
+
+.tableelements {
+  text-transform : uppercase;
+  display:block;
+  border : solid 4px #134F5C;
+  background : #45818E;
+  font-size : 18px;
+  text-align : center;
+  color : white;
+  text-decoration :underline;
+  text-transform :uppercase;
+  font-family: roboto;
+  width : 15%;
+  height : 70px;
+  padding : 30px 10px 20px 10px;
+  margin: 20px 20px 20px 20px;
+  float:left;
+}
+
+.tableelements:hover{
+  background-color : #134F5C;
+  border-color : #a2c4c9ff;
+}
+
+.section1 {
+  text-align: center;
+  width:100%;
+}
